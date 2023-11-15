@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="/img/Asset 1@3x 1.png" alt="logo">
+        <ul>
+            <li><a class="active" href="#bank">БАНК</a></li>
+            <li><a href="#business">БИЗНЕС</a></li>
+            <li><a href="#investition">ИНВЕСТИЦИИ</a></li>
+            <li><a href="#studies">СТРАХОВАНИЕ</a></li>
+            <li><a href="#mobile">МОБАЙЛ</a></li>
+            <li><a href="#globe">ПУТЕШЕСТВИЯ</a></li>
+            <li><a href="#ent">РАЗВЛЕЧЕНИЯ</a></li>
+        </ul>
+        <button>ВОЙТИ</button>
+    </nav>
+    <h1>
+        Конвертер валют онлайн
+    </h1>
+    <div class="main">
+
+        <div class="left">
+            <p>У меня есть</p>
+            <ul class="ul1">
+                <li class="selected">RUB</li>
+                <li>USD</li>
+                <li>EUR</li>
+                <li>AZN</li>
+            </ul>
+            <div class="txtt">
+                <input type="number" id="fromAmount" />
+                <p class="rate rate1">1 RUB = 0.0135 USD</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <p>Хочу приобрести</p>
+            <ul class="ul2">
+                <li>RUB</li>
+                <li class="selected">USD</li>
+                <li>EUR</li>
+                <li>AZN</li>
+            </ul>
+
+            <div class="txtt">
+                <input type="number" id="toAmount" />
+                <p class="rate rate2">1 RUB = 0.0135 USD</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="noInternetMessage" style="display: none; color: red; text-align: center;">
+        No internet connection. Please check your connection and try again.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

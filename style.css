@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(195, 191, 191);
+    padding: 10px;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border: none;
+    margin-right: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active {
+    color: black;
+}
+
+nav img {
+    height: 25px;
+    margin-left: 60px;
+}
+
+.main ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.main li {
+    border: 1px solid grey;
+    padding: 10px 20px;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 280px;
+}
+.right{
+    margin-top: 20px;
+}
+
+.ul1 li.selected,
+.ul2 li.selected {
+    background: blueviolet;
+    color: white;
+}
+
+.txtt {
+    width: 286px;
+    height: 120px;
+    margin-top: 20px;
+    border: 1px grey solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+p{
+    color: grey;
+}
+input{
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 50px;
+    width: 250px;
+    border: white;
+    margin-bottom: 15px;
+}
+
+li:hover {
+    background-color: blueviolet;
+}
+
+h1 {
+    margin-left: 280px;
+    font-size: 54px;
+    margin-top: 100px;
+}
+.main{
+    display: flex;
+}
+p{
+    margin-bottom: 10px;
+}
+.ul1 li.selected,
+.ul2 li.selected {
+    background: purple;
+    color: white;
+}
